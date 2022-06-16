@@ -1,0 +1,31 @@
+.item {
+    width: 90%;
+    border-radius: 1rem;
+    background-color: #fff;
+    color: #000;
+    margin-top: 1rem;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item img {
+    width: 50px;
+    border-radius: .5rem;
+}
+
+.item div {
+    width: 100px;
+    font-size: 2.5rem;
+    color: #2a9d8f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item div *:hover {
+    cursor: pointer;
+    color: #1b685f;
+}

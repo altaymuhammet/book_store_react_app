@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    background: orangered;
+    border-bottom: 4px solid #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgb(128, 3, 3);
+}
+
+.header button {
+    width: 15%;
+    padding: 1.3rem;
+    font-size: 1.2rem;
+    background: #fff;
+    color: rgb(189, 9, 9);
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgb(164, 6, 6);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header button:hover {
+    background: rgb(189, 9, 9);
+    color: #fff;
+}

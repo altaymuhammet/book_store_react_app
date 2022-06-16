@@ -1,0 +1,17 @@
+.div {
+    margin-top: 10rem;
+}
+
+.h1 {
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,54 @@
+.list_item {
+    width: 20%;
+    height: 450px;
+    padding: 2rem 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background: #fff;
+    box-shadow: 0 0 8px #000;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_item img {
+    width: 50%;
+    border-radius: 1rem;
+}
+
+.list_item div {
+    width: 100%;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.list_item div p {
+    margin: .5rem;
+    text-align: left;
+}
+
+.list_item div p span {
+    font-weight: bold;
+    margin-right: 5px;
+    color: orangered;
+}
+
+.list_item button {
+    width: 70%;
+    color: #fff;
+    background: orangered;
+    padding: 1rem 1rem;
+    box-shadow: 0 0 5px #999;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.list_item button:hover {
+    background: rgb(204, 55, 0);
+}
